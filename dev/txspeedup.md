@@ -8,7 +8,9 @@
 ```
 账号头像->设置->网络->zsc 网络配置
 
-更换RPC节点地址为：https://http-mainnet-node.huobichain.com
+更换RPC节点地址为：https://zsc.one/rpc
+
+
 ```
 
 # 加速方法

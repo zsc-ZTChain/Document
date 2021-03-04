@@ -2,7 +2,7 @@
 `ZSC` 兼容所有以太坊生态，支持所有以太坊的`RPC`接口和相关SDK。
 
 ## RPC
-[RPC Method List](https://eth.wiki/json-rpc/api)
+[RPC Method List]()
 
 示例如下:
 ```

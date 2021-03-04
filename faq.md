@@ -15,22 +15,22 @@ zsc 高度兼容 ethereum，可以使用 ethereum 的 sdk，例如 web3js， web
 
 # 资产如何进入Zenith smart chain？
 
-目前已支持ZTB资产，ZTB在ZT交易平台对Zenith smart chain的充提于3月1日上线；ETH、BTC、HUSD、DOT、FIL、BCH、LTC等资产于3月5日上链。
+目前已支持ZTB资产，ZTB在ZT交易平台对Zenith smart chain的充提于3月1日上线；ETH、BTC、ZUSD、LTC等资产于3月5日上链。
 
 # 有类似swap的Dex合约提供换币吗？
+
 目前官方Dex还没有，鼓励社区开发者提供。
 
 # 是否有跨链桥接（bridge）资产到Zenith smart chain？
-目前还没有官方的去中心化桥，鼓励社区开发者提供。
+
+目前还没有官方的去中心化跨链网桥，鼓励社区开发者提供。
 对于开发者资产，我们提供了资产承兑方案，帮组开发者快速资产上链。
 
-见[跨链](/bridge.md)
+参考: [跨链](/bridge.md)
 
 # 如何获取测试币？
 
-官方测试币水龙头地址，可以申请测试网ZTB。
-
-https://scan-testnet.hecochain.com/faucet
+官方目前还没有测试币水龙头地址获得ZTB。
 
 # 合约部署有什么要注意的吗？
 
@@ -44,11 +44,8 @@ RPC接口兼容以太坊，可直接使用web3.js，对以太坊开发者完全�
 
 类似于clique的pos+poa共识机制，支持的最大的Validator数量 21个，具有交易成本低、交易延时低、交易并发高等特点。
 
-# 介绍下元交易功能？
-
-源于以太坊的meta-transaction，通过减免手续费，降低用户和开发者的使用门槛。可以根据HT链上持仓等多种方式进行减免。
-
 # 是否支持--pruning 参数
+
 `--pruning`是 parity 的参数，zsc 的 API 遵循 go-ethereum 的风格，可以使用 `--gcmode archive` 来实现相同的功能。
 
 # Metamask 卡顿

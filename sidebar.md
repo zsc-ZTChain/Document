@@ -1,9 +1,6 @@
 - [关于ZSC](/intro.md)
 - [钱包](/wallet.md)
-- [资产跨链-跨链桥](/hecobridge.md)
-- [资产跨链-自行跨链](/bridge.md)
 - [共识](/consensus.md)
-- [元交易](/dev/meta_tx.md)
 - [创世文件](/genesis.md)
 - 开发者文档
     - [编译和安装](/dev/install.md)
