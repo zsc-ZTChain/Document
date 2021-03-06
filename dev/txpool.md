@@ -21,9 +21,9 @@
 
 ### 解决方案
 
-* 重设gas price，替换当前交易。
+* 重设`gas price`，替换当前交易。
 
 ### 原因解释
 
-> 有可能是因为使用 metamask 的时候速度过快，导致 gasprice 没有获取成功；mac 下的 chrome 的 [bug](https://github.com/MetaMask/metamask-extension/issues/10202)，会导致小狐狸弹出界面的输入框卡顿。
+> 有可能是因为使用 `metamask` 的时候速度过快，导致 `gasprice` 没有获取成功；`mac` 下的 `chrome` 的 [bug](https://github.com/MetaMask/metamask-extension/issues/10202)，会导致小狐狸弹出界面的输入框卡顿。
 

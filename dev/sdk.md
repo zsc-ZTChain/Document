@@ -1,7 +1,9 @@
 # 链上交互
+
 `ZSC` 兼容所有以太坊生态，支持所有以太坊的`RPC`接口和相关SDK。
 
 ## RPC
+
 [RPC Method List]()
 
 示例如下:
@@ -10,9 +12,11 @@
 ```
 
 ## SDK使用
+
 可使用`web3j`或`web3js`等以太坊`SDK`进行开发。以`web3js`为例。
 
 ### 获取链上信息
+
 ```JavaScript
 const Web3 = require('web3')
 
@@ -25,6 +29,7 @@ async function getChainId() {
 ```
 
 ### 生成账户
+
 ```JavaScript
 const Web3Accounts = require('web3-eth-accounts')
 
@@ -34,6 +39,7 @@ console.log(`account generated. address: ${account.address}, private key: ${acco
 ```
 
 ### 构造交易
+
 ```JavaScript
 const Web3 = require('web3')
 

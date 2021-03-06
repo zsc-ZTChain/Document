@@ -1,8 +1,10 @@
 # 智能合约操作
+
 `ZSC`使用`EVM`作为虚拟机，全面兼容以太坊合约开发。具体开发文档参见[Solidity](https://docs.soliditylang.org/en/v0.7.1/#)
 
 
 ## 使用Remix部署合约
+
 [Remix](https://remix.ethereum.org)是在线的合约开发和部署工具。首先打开`Remix`页面
 
 ![avatar](../images/remix1.jpg)
@@ -11,7 +13,8 @@
 
 ![avatar](../images/remix2.jpg)
 
-编译合约
+**编译合约**
+
 1. 点击左侧按钮，切换到编译界面；
 2. 选择对应的合约；
 3. 设置相关的编译选项；
@@ -26,6 +29,7 @@
 ![avatar](../images/metamask2_en.png)
 
 2. 返回到`Remix`界面
+
 + 切换环境
 + 选择对应合约
 + 点击部署按钮
@@ -36,44 +40,56 @@
 
 
 ## 使用Truffle部署合约
+
 + 安装 Node
 
 具体操作可查看[Installing Node.js](https://nodejs.org/en/download/package-manager/)
 
 + 安装truffle
+
 ```
 npm install -g truffle
 ```
+
 安装完成后执行以下命令
+
 ```
 truffle version
 ```
+
 如果命令行显示，以下类似信息，则表示安装成功。
+
 ```
 Truffle v5.1.36 (core: 5.1.36)
 Solidity v0.5.16 (solc-js)
 Node v10.22.1
 Web3.js v1.2.1
 ```
+
 + 创建项目
 
 首先创建项目文件夹
+
 ```
 mkdir Example
 cd Example
 ```
 
 然后使用truffle初始化项目
+
 ```
 truffle init
 ```
+
 初始化完成后，项目内会生成以下文件结构
+
 ```
 |-- contracts         //文件夹，用于放置合约文件
 |-- migrations        //文件夹，用于放置部署脚本
 |-- test              //文件夹，用于放置测试文件
 |-- truffle-config.js //此项目的 truffle 配置文件
 ```
+
 + 配置Truffle信息
 
 ```
@@ -123,10 +139,13 @@ module.exports = {
 + 部署合约
 
 运行部署命令
+
 ```
 truffle migrate --network testnet
 ```
+
 输出结果如下
+
 ```
 2_example_migration.js
 ======================
@@ -157,5 +176,6 @@ Summary
 > Total deployments:   1
 > Final cost:          0.02112088 ETH
 ```
+
 至此，合约部署完成。
 

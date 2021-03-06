@@ -1,5 +1,7 @@
 # 私链搭建
+
 ## genesis.json 配置
+
 ```JSON
  {
      "config": {

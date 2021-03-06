@@ -1,18 +1,21 @@
 # Graph Node
 
 ## 项目信息
+
 `Graph Node`是一个使用GraphQL在Ethereum和IPFS上快速构建去中心化应用（dApps）的协议。可方便的对链上数据进行分析和汇总。
 
 - [官网信息](https://thegraph.com/)
 - [Github](https://github.com/graphprotocol/graph-node)
 
 ## 使用方式
+
 我们推荐按照[官方文档](https://thegraph.com/docs/)进行部署。接下来的操作仅作为一个简单的搭建教程供大家参考
 
 ### 搭建graph-node
 
 出于便捷的考虑，我们使用官方提供的[docker compose](https://github.com/graphprotocol/graph-node/tree/master/docker)来进行节点、数据库、IPFS的部署。
 注意将`docker-compose.yml`中 `ethereum` 字段的值改为`HECO`的节点连接信息。
+
 ``` YAML
 graph-node:
     image: graphprotocol/graph-node
@@ -34,6 +37,7 @@ graph-node:
       ethereum: 'mainnet:http://127.0.0.1:8545'  #此处需修改
       RUST_LOG: info
  ```
+ 
  > 注意： graph-node连接的节点需要开启`archive`模式（启动节点时，添加flag --syncmode full --gcmode archive），建议各个使用方自行搭建RPC节点。
 
 ### 编写subgraph

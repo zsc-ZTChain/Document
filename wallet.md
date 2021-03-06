@@ -1,8 +1,8 @@
 # 概况
 
-支持 metamask、huobi wallet app、huobi wallet 浏览器插件
+`ZSC` 支持 `metamask` 浏览器插件、`jianbao app`.
 
-> 注意：提现到钱包之前，请检查兼容性，已知 Ledger 暂未支持
+> 注意：提现到钱包之前，请检查兼容性，已知 `Ledger` 暂未支持
 
 # metamask
 
@@ -13,9 +13,9 @@
 ## 主网
 
 ```
-chainid: 128
-rpc: https://http-mainnet-node.huobichain.com
-scan: https://hecoinfo.com
+chainid: 20212
+rpc: https://zsc.one/rpc
+scan:  http://zenithsmartchain.com/
 ```
 
 ![metamask](./images/metamask2.png)
@@ -24,17 +24,16 @@ scan: https://hecoinfo.com
 ## 测试网
 
 ```
-chainid: 256
-rpc: https://http-testnet.hecochain.com
-scan: https://scan-testnet.hecochain.com
+> 待更新
+
 ```
 
 
-# huobi wallet app
+# jianbao wallet app
 
-https://www.huobiwallet.com/
+https://www.sipc.vip/
 
-# huobi wallet extension
+# ZSC wallet extension
 
 > 待公布
 

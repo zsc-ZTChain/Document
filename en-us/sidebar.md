@@ -1,4 +1,4 @@
-- [About Heco](en-us/intro.md)
+- [About ZSC](en-us/intro.md)
 - [Integrity and Compliance](en-us/Integrity.md)
 - [Wallet](en-us/wallet.md)
 - [Asset-Peg Bridge](en-us/hecobridge.md)

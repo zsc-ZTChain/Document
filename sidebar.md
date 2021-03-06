@@ -21,4 +21,4 @@
 - FAQ
     - [FAQ](/faq.md)
 - 免责声明
-    - [免责声明](/disclaimer.md)
+    - [声明](/disclaimer.md)
