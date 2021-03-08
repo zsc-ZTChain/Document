@@ -7,4 +7,4 @@ Resources list：
 ### Tech Support And Help
 
 find us via suppport emmail, or social media.
-<DevContacts@huobi.com>
+<service@ztb.com>

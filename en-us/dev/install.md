@@ -1,65 +1,30 @@
-# Compile and Run
+# 编译和运行
 
-## Download
-Download source code via `git`
+## 源码下载
+
+通过`git`下载源码
 ```
-    git clone https://github.com/HuobiGroup/huobi-eco-chain.git
-```
-## Install Golang
-Reference: [Go Download and install](https://golang.org/doc/install)
-
-## Compile
-```
-cd /path/to/hecochain
-make geth
-```
-> If you want to use cross compile, like compiling on `Mac` for `Linux`, use `make geth-linux`, `make geth-linux-amd64`, etc.
-
-
-After compilation completed, the generated binary is in the folder `build/bin`.
-
-## Run
-By running `./build/bin/geth --help`, we can get all `option` info. Specific usage can refer to [Command-line Options](https://geth.ethereum.org/docs/interface/command-line-options)
-
-## Deployment
-
-introduce systemd management configs。
-
-
-* chain node config
-[config.toml](/common/run/config.toml)
-
-use fast sync in the config, if full needed, remove this line:
-```
-SyncMode = "fast"
-```
-
-* run code
-[run.sh](/common/run/run.sh)
-
-if you need to use it as archive node, add：
+https://github.com/zsc-ZTChain/go-zsc-chain.git
 
 ```
---syncmode full \
---gcmode archive \
+## 安装Golang
+
+参考 [Go Download and install](https://golang.org/doc/install)
+
+## 编译
+
 ```
-
-so：
-
+cd /go-zsc-chain/cmd
+make sipe
 ```
-#!/usr/bin/env bash
-/data/heco/geth-linux-amd64 \
---config /data/heco/config.toml  \
---logpath /data/heco/logs \
---syncmode full \
---gcmode archive \
---verbosity 3  >> /data/heco/logs/systemd_chain_console.out 2>&1
-```
+> 如果希望进行跨平台编译，比如在`Mac`上编译`Linux`平台的二进制文件，可以使用 `make geth-linux`相关命令操作
 
-* systemd scrips
-[chain.service](/common/run/chain.service)
+编译完成后，生成的二进制文件在`build/bin`目录下
 
+## 运行
 
+通过`./build/bin/sipe --help`查看所有的`option`选项，根据情况自行设置相关配置参数。可参考[Command-line Options](https://geth.ethereum.org/docs/interface/command-line-options)
 
-## Network
-Program will connect into `mainnet` after started. If want to connect the public testnet, you can add option `--testnet` to command when starting. 
+## 网络接入
+
+程序启动默认接入`mainnet`，如需接入公共测试网，可添加`option` `--testnet`。

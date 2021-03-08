@@ -1,41 +1,42 @@
-# Summary
+# 概况
 
-Heco support metamask、huobi wallet app、huobi wallet extension
+`ZSC` 支持 `metamask` 浏览器插件、`jianbao app`.
 
-> NOTE: Check compitibility before using wallet, Ledger is not supported.
+> 注意：提现到钱包之前，请检查兼容性，已知 `Ledger` 暂未支持
 
 # metamask
 
-add custom network：
+下载地址：https://metamask.io/
 
-## mainnet
+添加自定义网络：
 
-download url：https://metamask.io/
-
-```
-chainid: 128
-rpc: https://http-mainnet-node.huobichain.com
-scan: https://hecoinfo.com
-```
-
-![metamask](../images/metamask2_en.png)
-
-## testnet
+## 主网
 
 ```
-chainid: 256
-rpc: https://http-testnet.hecochain.com
-scan: https://scan-testnet.hecochain.com
+chainid: 20212
+rpc: https://zsc.one/rpc
+scan:  http://zenithsmartchain.com/
 ```
 
-# huobi wallet app
+![metamask](./images/metamask2.png)
 
-https://www.huobiwallet.com/
 
-# huobi wallet extension
+## 测试网
 
-> to release soon
+```
+> 待更新
 
-# cointtype for Heco
+```
+
+
+# jianbao wallet app
+
+https://www.sipc.vip/
+
+# ZSC wallet extension
+
+> 待公布
+
+# Zsc cointtype
 
 https://github.com/satoshilabs/slips/blob/master/slip-0044.md

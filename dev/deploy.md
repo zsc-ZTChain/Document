@@ -24,7 +24,7 @@ CacheDir = "ethash"
 CachesInMem = 2
 CachesOnDisk = 3
 CachesLockMmap = false
-DatasetDir = "/data/heco/data/.ethash"
+DatasetDir = "/data/zsc/data/.ethash"
 DatasetsInMem = 1
 DatasetsOnDisk = 2
 DatasetsLockMmap = false
@@ -44,7 +44,7 @@ GlobalQueue = 1024
 Lifetime = 10800000000000
 
 [Node]
-DataDir = "/data/heco/data"
+DataDir = "/data/zsc/data"
 InsecureUnlockAllowed = true
 NoUSB = true
 IPCPath = "geth.ipc"
@@ -90,10 +90,10 @@ SyncMode = "fast"
 
 ```
 #!/usr/bin/env bash
-/data/heco/geth-linux-amd64 \
---config /data/heco/config.toml  \
---logpath /data/heco/logs \
---verbosity 3  >> /data/heco/logs/systemd_chain_console.out 2>&1
+/data/zsc/geth-linux-amd64 \
+--config /data/zsc/config.toml  \
+--logpath /data/zsc/logs \
+--verbosity 3  >> /data/zsc/logs/systemd_chain_console.out 2>&1
 ```
 
 如果需要启用archive 类型，需要加入：
@@ -107,12 +107,12 @@ SyncMode = "fast"
 
 ```
 #!/usr/bin/env bash
-/data/heco/geth-linux-amd64 \
---config /data/heco/config.toml  \
---logpath /data/heco/logs \
+/data/zsc/geth-linux-amd64 \
+--config /data/zsc/config.toml  \
+--logpath /data/zsc/logs \
 --syncmode full \
 --gcmode archive \
---verbosity 3  >> /data/heco/logs/systemd_chain_console.out 2>&1
+--verbosity 3  >> /data/zsc/logs/systemd_chain_console.out 2>&1
 ```
 
 
@@ -120,11 +120,11 @@ SyncMode = "fast"
 
 ```
 [Unit]
-Description=huobi smart chain service
+Description=zsc smart chain service
 
 [Service]
 Type=simple
-ExecStart=/bin/sh /data/heco/run.sh
+ExecStart=/bin/sh /data/zsc/run.sh
 
 Restart=on-failure
 RestartSec=5s

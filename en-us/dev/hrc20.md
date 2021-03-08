@@ -1,6 +1,6 @@
-# ZSC20 Token Standard
+# ZSC20 Token 标准
 
-ZSC is fully compatible with [ERC20](https://eips.ethereum.org/EIPS/eip-20) standard，interfaces and events as follows：
+`ZSC` 完全兼容以太坊 [ERC20](https://eips.ethereum.org/EIPS/eip-20) 标准，`interface` 和 `event` 如下：
 
 ```
 // ----------------------------------------------------------------------------
@@ -20,10 +20,10 @@ contract ERC20Interface {
 }
 ```
 
-EIP reference：
+标准请参考：
 
 [eip-20](https://eips.ethereum.org/EIPS/eip-20)
 
-Implemetation reference：
+实现请参考：
 
 [openzeppelin-contracts](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC20)

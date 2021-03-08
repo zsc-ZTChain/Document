@@ -1,8 +1,8 @@
-# Deployment
+# 部署设置
 
-introduce systemd management configs。
+给出了一组使用 `systemd` 进行服务管理的配置。
 
-## chain node
+## 链节点配置
 
 * config.toml
 
@@ -24,7 +24,7 @@ CacheDir = "ethash"
 CachesInMem = 2
 CachesOnDisk = 3
 CachesLockMmap = false
-DatasetDir = "/data/heco/data/.ethash"
+DatasetDir = "/data/zsc/data/.ethash"
 DatasetsInMem = 1
 DatasetsOnDisk = 2
 DatasetsLockMmap = false
@@ -44,7 +44,7 @@ GlobalQueue = 1024
 Lifetime = 10800000000000
 
 [Node]
-DataDir = "/data/heco/data"
+DataDir = "/data/zsc/data"
 InsecureUnlockAllowed = true
 NoUSB = true
 IPCPath = "geth.ipc"
@@ -75,12 +75,14 @@ IdleTimeout = 120000000000
 
 ```
 
-use fast sync in the config, if full needed, remove this line:
+默认使用了快速同步，如果需要使用 full，可以去掉：
+
 ```
 SyncMode = "fast"
 ```
+这一行；
 
-## start bash
+## 启动脚本
 
 
 * run.sh
@@ -88,40 +90,38 @@ SyncMode = "fast"
 
 ```
 #!/usr/bin/env bash
-/data/heco/geth-linux-amd64 \
---config /data/heco/config.toml  \
---logpath /data/heco/logs \
---verbosity 3  >> /data/heco/logs/systemd_chain_console.out 2>&1
+/data/zsc/geth-linux-amd64 \
+--config /data/zsc/config.toml  \
+--logpath /data/zsc/logs \
+--verbosity 3  >> /data/zsc/logs/systemd_chain_console.out 2>&1
 ```
 
-if you need to use it as archive node, add：
+如果需要启用archive 类型，需要加入：
 
 ```
 --syncmode full \
 --gcmode archive \
 ```
 
-so：
+即：
 
 ```
 #!/usr/bin/env bash
-/data/heco/geth-linux-amd64 \
---config /data/heco/config.toml  \
---logpath /data/heco/logs \
+/data/zsc/geth-linux-amd64 \
+--config /data/zsc/config.toml  \
+--logpath /data/zsc/logs \
 --syncmode full \
 --gcmode archive \
---verbosity 3  >> /data/heco/logs/systemd_chain_console.out 2>&1
+--verbosity 3  >> /data/zsc/logs/systemd_chain_console.out 2>&1
 ```
 
-## systemd config
+
+## systemd配置
 
 ```
-[Unit]
-Description=huobi smart chain service
-
 [Service]
 Type=simple
-ExecStart=/bin/sh /data/heco/run.sh
+ExecStart=/bin/sh /data/zsc/run.sh
 
 Restart=on-failure
 RestartSec=5s

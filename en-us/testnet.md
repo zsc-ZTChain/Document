@@ -1,21 +1,26 @@
-# Testnet Info
+# 测试网信息
 
 ## chainid
+
 ```
-256
+> 待更新
+
 ```
 ## rpc
-```
-https://http-testnet.hecochain.com
-wss://ws-testnet.hecochain.com
-```
-## explorer
-```
-https://scan-testnet.hecochain.com
-```
-
-## faucet
 
 ```
-https://scan-testnet.hecochain.com/faucet
+> 待更新
+```
+## 浏览器
+
+```
+> 待更新
+
+```
+
+## 测试币水龙头
+
+```
+> 待更新
+
 ```

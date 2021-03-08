@@ -1,37 +1,41 @@
-# Mainnet Info
+# 主网信息
 
 ## chainid
 ```
-128
+
+20212
+
 ```
 ## rpc
 
-International visit:
-```
-https://http-mainnet.hecochain.com
-wss://ws-mainnet.hecochain.com
-```
-
-Visit from China Mainland：
+国内访问：
 
 ```
-https://http-mainnet-node.huobichain.com
-wss://ws-mainnet-node.huobichain.com
-```
-
-## explorer
-```
-https://scan.hecochain.com
-```
-
-# P2P Nodes
-
-> the following nodes are default config for bootstrap node in code https://github.com/HuobiGroup/huobi-eco-chain/blob/master/params/bootnodes.go
+https://zsc.one/rpc
 
 ```
-enode://7bed18c87054f807bc9096501bc78f737363f357af831791bab07c4fa6c5a1a67cdcf0a097dc2cc918262ef04fb1c05c26026df5c11a6a56666f9b1fb4072210@18.178.30.66:32668
 
-enode://d67251dd3b050e555679a8abdc427a4c78a9bae174f2fd3b9163c364d27b6a69688ee067cd3214e8ceb71e6e602fd812797b085ae37ed3bf93b78e2b77ae3306@18.181.40.7:32668
-
-enode://f88bb1f5d0e42cf75ec879212b7c8477d605315d5296fba02bc4600eccf73c64427de46567a320d00985d5bc612168817ba6dff169bd6a4774e112e6db0ff6a2@18.176.66.118:32668
+国外访问：
 ```
+https://zsc.one/rpc
+
+```
+
+## 浏览器
+
+```
+http://zenithsmartchain.com/
+
+```
+
+## P2P 节点
+
+```
+admin.addPeer("enode://e28b5ffc0050c609082fd8c1344fc4dfa567d1da86ddbcb72c82ac16a5524031830afe1a9c049ba229cf71f16f0adb21412f1500c2f7b6e2915ffbd09f821efc@47.242.249.245:30301")
+   
+admin.addPeer("enode://4724cd99789d0681a628841b31e5ceb66de5d9c018d8d322552e13c3c7987d3ebaa937c290b552351073b0da159dc395be7f9e4f5227ac87441895f0c19036a9@47.242.81.113:30301")
+   
+admin.addPeer("enode://34573b2144f9379737b747e31cc35dbd94ff8b108b1789253b60cf16a1cf7cca1bc4c53d21772311e7111625ebdf873635a0c06dcb4d83ee93b04a507dc787ff@8.210.253.177:30301")
+...
+```
+

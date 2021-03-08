@@ -1,37 +1,27 @@
-# Consensus
-`Zsc` adopts `ZPoS` consensus mechanism with low transaction cost, low transaction latency, high transaction concurrency, and supports up to 21 validators.
+# 共识
 
-HPoS is a combination of PoA and Pos. To become a validator, you need to submit a proposal first and wait for other active validators to vote on it, after more than half of them pass, you will be eligible to become a validator. Any address can stake to an address that qualifies to become a validator, and after the validator's staking volume ranks in the top 21, it will become an active validator in the next epoch.
+`Zsc`采用`ZPoS`共识机制，具有交易成本低、交易延时低、交易并发高等特点，支持最多`21`个验证人节点；
 
+`ZPoS`是`PoA`和`Pos`的结合体。想要成为验证人，需要先提交提案，等待其他活跃的验证人进行投票，半数以上通过之后，则有资格成为验证人。任意地址均可对有资格成为验证人的地址进行质押，当验证人的质押量排名进入前`21`位之后，则会在下一个`epoch`成为活跃验证人。
 
-All active verifiers are ordered according to predefined rules and take turns to pack out blocks. If a validator fails to pack out a block in time in its own round, the active validators who have not involved  in the past n/2 (n is the number of active validators) blocks will randomly perform the block-out. At least n/2+1 active validators work properly to ensure the proper operation of the blockchain.
+所有的活跃验证人按照预定规则排序，轮流进行出块。如果有验证人在自己的出块轮次没能及时出块，则在过去`n/2(n为活跃验证人的数量)`个块内，没有参与过出块操作的活跃验证人，随机进行出块。最少`n/2+1`个活跃验证人正常工作，即可保证区块链的正常运行。
 
+正常产块时，区块的难度值为2，未按照预定顺序进行产块时，区块的难度值为1。当区块链发生分叉时，区块链按照累计最大难度选择对应分叉。
 
-The difficulty value of a block is 2 when the block is generated normally and 1 when the block is not generated in a predefined order. when a fork of the block chain occurs, the block chain selects the corresponding fork according to the cumulative maximum difficulty.
+## 名词说明
 
-## Glossary 
-- validator. Responsible for packaging out blocks for on-chain transactions.
-- active validator. The current set of validators responsible for packing out blocks, with a maximum of 21.
-- epoch. Time interval in blocks, currently 1epoch = 200block on `Heco`. At the end of each epoch, the blockchain interacts with the system contracts to update active validators.
+- 验证人，负责对链上交易进行打包出块；
+- 活跃验证人，即当前负责打包出块的一组验证人，上限为`21`个。
+- `epoch`。以区块为单位的时间间隔，目前`Zsc`上 `1epoch = 200block`，每个`epoch`结束的时候，区块链会与系统合约交互，进行活跃验证人更新；
 
-## System contract
-[huobi-eco-contracts](https://github.com/HuobiGroup/huobi-eco-contracts)
+## 质押
 
-The management of the current validators are all done by the system contracts.
-- Proposal  Responsible for managing access to validators and managing validator proposals and votes.
-- Validators Responsible for ranking management of validators, staking and unstaking operations, distribution of block rewards, etc..
-- Punish Responsible for punishing operations against active validators who are not working properly.
+任何账户，都可以对`validator`进行任意数量的质押操作，每个`validator`的最小质押量是`32ZTB`。
+如果想取回已质押的`ZTB`，需要按照如下操作进行：
 
-Blockchain call system contracts：
-- At the end of each block, the `Validators` contract is called and the fees for all transactions in the block are distributed to active validators.
-- The `Punish` contract is called to punish the validator  when the validator is  not  working properly.
-- At the end of each epoch, the `Validators` contract is called to update active validators, based on the ranking.
+1. 发送调用`Validators`合约，发送针对某一个`validator`的解质押`(unstake)`的声明交易;
+2. 等待`86400`个块之后，调用`Validators`合约，发送提取质押`(withdrawStaking)`的交易，将所有在此`validator`的质押取回；
 
-## Staking
-For any account, any number of coins can be staked to the validator, and the minimum staking amount for each validator is `32HT`.
-If you want to unstake, you need to do the following:
-1. Send an unstaking transaction for a validator to the `Validators` contract;
-2. Waiting for `86400` blocks before sending a transaction to `Validators` contract to withdraw all staking coins on this validator;
+## 惩罚措施
 
-## Punishment
-Whenever a validator is found not to pack block as predefined, the `Punish` contract is automatically called at the end of this block and the validator is counted. When the count reaches 24, all income of the validator is punished. When the count reaches 48, the validator is removed from the list of active validators, and the validator is disqualified.
+每当发现验证人没有按照预先设定进行出块的时候，就会在这个块结束时，自动调用`Punish`合约，对验证人进行计数。当计数达到24时，罚没验证人的所有收入。当计数达到48时，将验证人移除出活跃验证人列表，同时取消验证人资格。

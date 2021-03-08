@@ -1,132 +1,135 @@
-# Zenith smart chain(ZSC) – Heco
+# Zenith smart chain
 
 
-## Introduction to the Huobi Open Platform
-The Huobi Open Platform is a unified infrastructure platform based on the technical, traffic and ecological resources of the Huobi Group, and will be gradually open to the blockchain industry. It will make the construction of decentralized applications more efficient and cost-effective, and provide comprehensive empowerment in aspects of promotion, traffic, and resources. In December 2020, the first product of the Huobi Open Platform, the Zenith smart chain(ZSC), also known as Heco, officially launched its "Tinder" phase. In addition, Huobi Open Platform will launch DEX and other blockchain infrastructures based on Layer 2. The Huobi Open Platform will provide global developers with series of diverse innovative facilities and services.
+## ZT公链平台介绍
 
-## Introduction to Zenith smart chain(ZSC)
-Zenith smart chain(ZSC) (Heco) is a decentralized, high-efficiency and energy-saving public chain, also the first product launched by the Huobi Open Platform. It is compatible with smart contracts and supports high-performance transactions. The endogenous token of Heco is HT and it adopts the HPoS consensus mechanism. Heco will continue to improve the efficiency of Ethereum by Layer2, which will supplement and empower the Ethereum ecosystem.
+`ZT`公链平台是基于`ZT平台`的技术资源、流量资源和生态资源，向区块链行业陆续全面开放的基础设施统一平台。使去中心化应用的搭建效率更高成本更低，并在推广、流量、资源等方面进行全方位赋能。2021年2月，`ZT公链`平台推出的第一个产品——`Zenith smart chain`正式启动“夸克（Quark）”阶段，后续ZT公链平台将推出基于`Layer2`扩展方案的`DEX`及其他区块链基础设施。`ZT`公链平台将为全球开发者提供更多元的创新设施和基础服务。
 
-## Declaration
-To help developers’ evolvement at every stage 
+## Zenith smart chain简介
 
-## Vision
-Heco's mission is not only a public chain, but also to focus on the discovery and support of high-potential developers and innovative projects. Relying on the world's largest trading ecosystem, Heco is committed to becoming the birthplace of innovative technologies and innovative businesses, and building a complete ecological loop of technology development, application promotion, and trading.
+为鼓励广大开发者更高效、节能地构建去中心化应用（Dapp），`ZT`交易平台宣布正式推出`Starlink Plan`（星连计划）：搭建一条以平台通证`ZTB`为底层生态资产的去中心化高性能交易公链`[Zenith smart chain(简称ZSC)]`。`ZSC`引入`ZPos`共识机制，由21个验证人节点构成。`ZSC`具有高并发吞吐量、`low gas`、智能合约可编译性、开发者友好、跨链交互等特性，致力打造出涵盖DEX、预言机、衍生品、智能合约保险、抵押借贷、跨链资产交易等为一体的去中心化金融平台。 `Zenith smart chain(ZSC)` 是一个去中心化高效节能公链，也是`ZT`公链平台推出的首个产品，在支撑高性能交易的基础上，实现智能合约的兼容。`Zenith smart chain`的原生数字资产为ZTB，采用ZPoS共识机制。
 
-## Heco’s Performance
-- TPS: 500+
-- Average block interval: 3s
+## 宣言
 
-## Consensus Mechanism
-HPoS consensus mechanism: it has the characteristics of low transaction cost, low transaction delay, and high transaction concurrency.
+打造涵盖`DEX`、预言机、衍生品、智能合约保险、抵押借贷、跨链资产交易等为一体的去中心化金融平台。
 
-The maximum number of validators supported is 21.
+## 愿景
 
-## Economic Model 
-The endogenous token on the chain is HT; the transactions consume HT as gas fee.
+`Zsc`的使命不仅是一条公链，更加会倾注在优质开发者、早期创新项目的发掘和扶持上。`ZSC`依托全球交易生态，致力于成为创新技术、创新业务的发源地，构建一个技术开发、应用推广、交易的完整生态闭环。
 
-Miners pledge HT to become validator nodes. The reward of nodes is gas fee, which is distributed according to the mortgage proportion. 
+## Zenith smart chain性能
 
-## Cross-Chain
-Assets such as BTC, ETH and stable coins can be mapped to Heco by an asset bridge. The realization method is to lock a certain amount of tokens on the original chain then generate a corresponding number of tokens on Heco. 
+- TPS：500+
+- 出块时间：3s
 
-Heco encourages developers to provide more decentralized cross-chain solution.  
+## 共识机制
 
-## Meta Transaction Function
-The meta-transaction function is supported, which allows users to reduce gas fees step-wise, and Heco will cover the payment of the reduced part. The meta-transaction function allows to minimize the migration cost of DApp developers, as well as to effectively reduce the cost of DApp users.
+采用`ZPoS`共识机制，具有交易成本低、交易延时低、交易并发高等特点；
+支持最大的验证人节点数量是 21个。
 
-## Heco Technical Characteristics
-- An open and decentralized network to maintain the security of the network and assets.
-- Support the programmability of EVM, the compatibility of smart contracts to reduce development or migration costs.
-- Meta-transaction function: gas fee reduction, effectively reducing the cost of developers and users on the chain.
-- Support cross-chain asset transfer to optimize users’ experience.
+## 经济模型
 
-## Four Stages of Heco
+链上原生代币是 `ZTB`; 交易消耗 `ZTB`作为链上交易手续费；
+通过质押`ZTB`来成为验证人节点。节点按照质押比例分配奖励，奖励是链上交易手续费。
 
+## 跨链
+
+可通过资产跨链合约，将`ETH`、`BTC`、稳定币等资产映射到 `Zsc`，实现方式为在源链上锁定一定数量的资产后在 `Zsc` 生成对应数量的`Token`。
+`Zsc`鼓励社区开发者提供更多去中心化的跨链解决方案。
+
+
+## Zsc技术特性
+
+- 开放、去中心化的网络，维护网络和资产的安全；
+- 支持`EVM`的可编程性，智能合约的兼容性，降低开发以及迁移成本；
+- 跨链资产传输，优化资产跨链体验。
+- 一站式区块链技术支持和生态服务解决方案。
+
+
+## Zsc的四个阶段
 <table >
-    <tr style="background:rgba(0,0,0,0)" ><th colspan=5>Heco Technical Route</th> </tr>
+    <tr style="background:rgba(0,0,0,0)" ><th colspan=5>Zenith smart chain技术路线</th> </tr>
     <tr style="background:rgba(0,0,0,0)" >
-<th > Stage </th><th> Features </th><th> Time </th><th> Sub Stage </th><th> Technical Points </th>
+<th > 阶段 </th><th> 特征 </th><th> 时间 </th><th> 阶段细分 </th><th> 技术能力 </th>
 </tr>
 <tr style="background:rgba(0,0,0,0)" >
-<tr style="background:rgba(0,0,0,0)" ><td rowspan=9 >Tinder</td><td rowspan=9 >
-The initial version of Heco.
+<tr style="background:rgba(0,0,0,0)" ><td rowspan=9 >夸克（Quark）</td><td rowspan=9 >1. 完成公链底层开发，保证开发友好性与高性能处理能力；
 
-The system is stable and easy to use.
+2. 推出Dapp开发者大赛，构建ZSC基建设施；
 
-Developers can develop and promote Dapp at low cost.
+3. 承兑主流资产转换，易于用户参与</td><td rowspan=9 >2021 Q1</td><td rowspan=3 >公开测试期</td><td>更高交易性能</td></tr>
+<tr style="background:rgba(0,0,0,0)" ><td>更低交易成本</td></tr>
+<tr style="background:rgba(0,0,0,0)"><td>更快的交易速度</td></tr>
+<tr style="background:rgba(0,0,0,0)"> <td rowspan=3 >节点竞选期</td><td>更去中心化，更安全</td></tr>
+<tr style="background:rgba(0,0,0,0)"><td>主流资产完备</td></tr>
+<tr style="background:rgba(0,0,0,0)"><td>基础工具初具雏形</td></tr>
+<tr style="background:rgba(0,0,0,0)"> <td rowspan=3 >生态孵化期</td><td>技术服务体系化</td></tr>
+<tr style="background:rgba(0,0,0,0)"><td>基础工具定制化</td></tr>
+<tr style="background:rgba(0,0,0,0)"><td>资产流转便捷化</td></tr>
 
-Users can participate in Dapp on Heco with a low threshold.</td><td rowspan=9 >2020 Q4-2021 Q1</td><td rowspan=3 >Public Beta</td><td>Higher transaction performance</td></tr>
-<tr style="background:rgba(0,0,0,0)" ><td>Lower transaction costs</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>Meta transaction subsidy</td></tr>
-<tr style="background:rgba(0,0,0,0)"> <td rowspan=3 >Node Election</td><td>More decentralized and safer</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>Complete mainstream assets</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>Basic tools in place</td></tr>
-<tr style="background:rgba(0,0,0,0)"> <td rowspan=3 >Ecosystem Incubation</td><td>Technical service systemization</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>Basic tool customization</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>Convenient asset transfer</td></tr>
+<tr style="background:rgba(0,0,0,0)"><td rowspan=5 > 奇点（Singularity）  </td><td rowspan=5 > 1.完善并扩大ZSC链上生态；
 
-<tr style="background:rgba(0,0,0,0)"><td rowspan=5 > Spark </td><td rowspan=5 > 
-The protocol is further optimized. 
+2. 搭建相关开发者交流平台；
 
-Heco will take the mission of connecting CeFi and DeFi, 
+3. 引入并支持更多去中心化币种资产  </td> <td rowspan=5 >2021 Q2 </td> <td rowspan=5 > 待公布  </td> <td>开发者工具完备</td></tr>
+<tr style="background:rgba(0,0,0,0)"><td>开发者论坛、博客、FAQ信息完备</td></tr>
+<tr style="background:rgba(0,0,0,0)"><td>链生态基础设施繁荣</td></tr>
+<tr style="background:rgba(0,0,0,0)"><td>创新型Open ID</td></tr>
+<tr style="background:rgba(0,0,0,0)"><td>个性化入口精准匹配用户和DApp</td></tr>
 
-allowing more users to use DeFi applications at a low threshold.  </td> <td rowspan=5 >2021 Q3 </td> <td rowspan=5 > To be announced  </td> <td>Complete developer tools</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>Complete developer forum, blog, and FAQ information</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>Chain ecological infrastructure booms</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>Innovative open ID</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>Personalized portal accurately matches users and Dapps</td></tr>
+<tr style="background:rgba(0,0,0,0)"><td rowspan=3>星云（Nebula）</td> <td rowspan=3>1. 增加超级节点权重，由投票治理产生，丰富ZTB应用场景;
 
-<tr style="background:rgba(0,0,0,0)"><td rowspan=3>Flame</td> <td rowspan=3>
+2. 各大公连的跨链可互操性，打通不同链之间资产的跨链交互</td><td rowspan=3>2022 Q3</td><td rowspan=3>待公布</td><td>跨链互操作协议</td></tr>
+<tr style="background:rgba(0,0,0,0)"><td>跨链互操作集成</td></tr>
+<tr style="background:rgba(0,0,0,0)"><td>共识协议升级</td></tr>
+<tr style="background:rgba(0,0,0,0)"><td rowspan=5>混沌（Chaos）</td> <td rowspan=5>1. 链上积极引进线下传统资产;
 
-Enable Layer2 technology.
-Expand performance while retaining the decentralized advantages of distributed protocols.</td><td rowspan=3>2022 Q2</td><td rowspan=3>To be announced</td><td>Application of Layer2</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>Cross-chain interoperability protocol</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>Cross-chain interoperability integration</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td rowspan=5>Blaze</td> <td rowspan=5>
-
-
-Landing of large-scale commercial applications. 
-Support a variety of traditional businesses to run smoothly on the chain</td> <td rowspan=5>2023 Q1</td> <td rowspan=5>To be announced</td><td>Multiple virtual machine s supported</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>Multiple zero-knowledge proofs and privacy protection capabilities</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>Multiple signature schemes</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>Storage compression and expansion solution</td></tr>
-<tr style="background:rgba(0,0,0,0)"><td>Multi-dimensional sharding scheme</td></tr>
+2. 开发大额资产暗池（Dark Pool）交易</td> <td rowspan=5>2023 Q3</td> <td rowspan=5>待公布</td><td>多虚拟机支持</td></tr>
+<tr style="background:rgba(0,0,0,0)"><td>多种零知识证明和隐私保护能力</td></tr>
+<tr style="background:rgba(0,0,0,0)"><td>多种签名方案</td></tr>
+<tr style="background:rgba(0,0,0,0)"><td>存储压缩和扩容方案</td></tr>
+<tr style="background:rgba(0,0,0,0)"><td>多维度分片方案</td></tr>
 
 </table>
 
 
 
-## Current Stage of Heco
-In December 2020, the Zenith smart chain(ZSC), Heco officially launched its "Tinder" phase, which will focus on improving the on-chain infrastructure, including but not limited to:
-Oracles, Voting tools, Anchor Coins, DEX, Lending, Fnancial Management, Insurance, Synthetic Assets, Cross-Chain Solutions, Data Analysis, Smart Contract Innovation, etc.
+## Zenith smart chain当前的阶段
 
-## Support Plan of Heco
-### Financial Support
-- Heco will set up a special fund to invest, support and incentivize high-potential developers.
-- Heco will launch a variety of developer activities and competitions to discover and fund potential developers. 
-- In order to reduce the cost of users on Heco Dapp, the Heco meta transaction function will reduce the gas fee of users holding HT in a step-wise manner.
+2021年1月，`Zenith smart chain`正式启动“夸克”阶段，该阶段阶段将专注完善链上基础设施，包括但不限于：预言机、投票工具、锚定币、`DEX`、借贷、理财、保险、合成资产、跨链解决方案、数据分析、智能合约创新等等
 
-### Traffic Support
-Huobi Global will strongly support the development of Heco ecosystem:
-- Provide traffic entrance for high-quality Dapp on Heco.
-- After running successfully on Heco, high-quality projects can submit token listing application to Huobi Global, and can be listed on Huobi Global if they meet the listing standards.
+## Zenith smart chain扶持规划
+### 资金扶持规划
 
-### Resource Support
-- Projects or developers that have received investment and support from Heco have not only the opportunity to get official news report, but also can apply for marketing service packages and promote their projects globally.
-- High-quality projects can participate in Heco global roadshows for free.
-- Huobi Group will open up ecological resources to high-potential developers, matching the win-win cooperation between developers and our ecological partners.
+- `Zenith smart chain`将设立专项基金，投资、扶持、激励优质开发者
+- `Zenith smart chain`将推出多种开发者活动与大赛，发掘、资助全球潜力开发者
+
+### 流量扶持规划
+
+`ZT Global` 将大力支持`Zenith smart chain`的发展
+- 在站内为对`Zsc`上的优质`Dapp`提供流量入口
+- 优质项目在`Zsc`顺利运行后可向`ZT Global`提交上币申请，满足上币条件即可在`ZT Global`交易
+
+### 资源扶持规划
+
+- 获得投资、扶持的项目或开发者不仅能获得官方报道，还可向官方申请营销服务包，并在全球范围内宣传项目
+- 优质项目可免费参与`Zsc`全球路演活动
+- `ZT`平台将开放生态资源，撮合优质开发者与生态伙伴的合作与共赢
+`Zenith smart chain`将依托全球最大的交易生态，致力于成为创新技术、创新业务的发源地，构建一个技术开发、应用推广、交易的完整生态闭环。
 
 
-## Interact with Us on Social Media
-- Facebook：Zenith smart chain(ZSC)
-- Twitter：HuobiECOChain
-- Telegram： HuobiECOChain
-- Weibo：Zenith smart chain
-- Wechat Offical Account：Huobi ECO Heco
+## 在社交媒体上与我们互动
 
-## Risk Warning
-- All users and developers can participate in the current test environment and subsequent stages of Heco for free, and there is no charging scenario.
-- All users must distinguish the test environment from the Mainnet. The assets generated in the test environment have no value. Be aware of counterfeit currency fraud.
-- Heco announces authorization, promotion and other collaborations only through the official social media platform. Developers and users should check carefully to avoid losses.
-- Do not misread the official website (hecochain.com), and be cautious with private key phishing.
+- Facebook：[https://www.facebook.com/ZT.COMexchange](https://www.facebook.com/ZT.COMexchange)
+- Twitter：[https://twitter.com/ZT_EXCHANGE](https://twitter.com/ZT_EXCHANGE)
+- Telegram： [https://t.me/zt_com](https://t.me/zt_com)
+- 微博：[https://weibo.com/u/6858684512?refer_flag=1005055010_&is_all=1](https://weibo.com/u/6858684512?refer_flag=1005055010_&is_all=1)
+
+
+
+## 风险提示
+
+- 所有用户及开发者都可以免费参与`Zenith smart chain`的测试环境与后续阶段，不存在收费场景。
+- 大家务必区分好测试环境和主网环境，测试环境所产生的资产不具备任何价值，谨防假币诈骗；
+- `Zenith smart chain`将通过官方社交平台公布授权、推介等合作，开发者和用户谨慎核对，以免造成损失；
+- 认准官方网址: [https://zsc-ztchain.github.io/home-page/index.html](https://zsc-ztchain.github.io/home-page/index.html)，避免出现私钥被钓鱼等情况。

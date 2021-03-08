@@ -1,143 +1,159 @@
-# The latest Announcement
+# 最新公告
 
-## 19 Anchor Tokens to be Launched in Huobi Ecological Chain HECO
+## ZT交易平台宣布即将上线智能链ZSC
 
-Dear users: 
+尊敬的用户：
 
-Anchor tokens of AAVE、ARPA、BAL、BETH、CNNS、DAI、GOF、HBC、LAMB、LINK、LRC、PAX、SKM、SNX、SUSHI、SWFTC、UNI、USDC and YFI will be launched on Heco soon. Please wait for the official announcement of the specific opening time.
+2020年，DeFi迅速崛起，成为区块链行业最前沿的新风口之一。尽管目前回落，但其仍表现出强劲的持续增长趋势，其未来应用价值已经愈加清晰。但由于DeFi在很大程度上依赖于以太坊，而以太坊交易速度慢、费用高的问题，也制约了它的进一步发展。为此，ZT Global始终殚精竭虑，一心一意为谋DeFi发展而努力。
 
-Heco team
+2月3日，ZT Global发布官方公告称，ZT交易平台将正式推出Starlink Plan（星连计划），搭建一条以ZT平台积分ZTB为底层生态资产的去中心化高性能交易公链Zenith smart chain（简称ZSC）。与此同时，ZSC测试环境也将于近期上线。
 
-## Heco Airdrop Week
+ZT智能链ZSC简介
 
-Dear Users, 
+Zenith smart chain（简称ZSC）是以ZT平台积分ZTB为底层生态资产的去中心化高性能交易公链，采用ZPos共识机制，以帮助开发者灵活高效地搭建去中心化应用，并通过质押ZT平台积分ZTB成为ZSC验证人节点。
 
-Chinese New Year is coming, and Heco jointly launched New Year 1.5 million campaign "Heco Airdrop Week" with 12 top projects on Heco chain. Thank you for your strong support for Heco and Heco Ecosystem.
+ZSC致力打造出涵盖 DEX、预言机、衍生品、智能合约保险、抵押借贷、跨链资产交易等为一体的去中心化金融平台。
 
-Activity time:04-09/02/2021
+ZT智能链ZSC性能
 
-Activity rules：
-During this activity, users can participate in airdrops initiated by Heco projects and get rewards according to the rules issued by each project. A total of 12 airdrops initiated by 2-3 projects a day. Airdrops are independent of each other, users can participate in any of them. Users can view 'Heco Airdrop week' schedule and learn more about airdrops and rules on DeFibox.com.
+TPS：500+
 
-Airdrop projects and time:
+出块时间：3s
 
-February 4 - LAVAswap
+1、共识算法
 
-February 5 - BeeSwap, Channels
+ZPos共识机制：该机制具有高并发吞吐量、low gas、智能合约可编译性等特点；节点的激励为链上交易的手续费，交易费为ZTB；支持的最⼤的Validator数量21个。
 
-February 6 - BasisX, Lendhub
+2、经济模型
 
-February 7 - FilDA, NFT-HERO
+链上原生代币是ZTB；交易消耗ZTB作为Gas；矿工通过质押ZT平台积分ZTB成为ZSC验证人节点。
 
-February 8 - EarnDeFi, MDEX
+3、跨链
 
-February 9 - CROSS, BAGS, DMEX
+支持BTC、ETH等平台账户资产，可映射到ZSC，生成对应数量的类ERC Token。ZSC鼓励社区开发者提供更多去中⼼化跨链解决方案。
 
-Partner platform:
-DeFibox.com
+ZSC技术亮点 
 
-Partner walelts:
-Huobi Wallet, CodeBank, BitKeep, TokenPocket, Bitpie, ONTO, Hyperpay, MetaMask, Dappbirds 
+1、ZPos共识机制，3秒出块，加速共识；
 
-Partner media:
-金色财经、Winkrypto、火星财经、币世界、COINTELEGRAPH、KingData
+2、开发者友好，开发者可切换测试网或自由切换节点；
 
-Activity notice:
-1. You can participate in 12 airdrops at the same time.
-2. Airdrop rewards will be distributed by the project after the address is approved. It takes time, please wait.
-3. Please strictly follow the airdrop rules. If the user commits any illegal operation that affects the normal operation of the activity, Heco will immediately disqualify this user from participating and he will not be able to receive any airdrop.
-4. The final interpretation right of a single airdrop belongs to the relevant project. 
-5. Heco is this activity organizer, but does not provide with any investment advice. Users are requested to participate with caution.
+3、开放、去中心化的⽹络，维护网络和资产的安全
 
-## RPC servers update
+4、智能合约可编译，降低开发维护成本
 
-Dear Heco users, for your better experience, please choose RPC server according your location:
-
-Global: https://http-mainnet-node.huobichain.com
-
-China mainland: https://http-mainnet.hecochain.com
-
-## Heco Eco Alliance Announces First Exchange Membership List
-
-Heco Eco Alliance officially announced the first list of exchanges. Nine exchanges including BiBox, BiKi, BigONE, BitZ, HBTC, Hoo, LBank, MXC and Jubi joined the Heco Eco Alliance as partners to support the Heco Eco Alliance project.
-
-The Heco Eco Alliance was founded on January 14, 2021 by Heco, the Firecurrency Eco-chain. The Heco Eco-Alliance aims to combine top investment institutions, trading platforms, wallets, media and other projects in the industry to enable Heco eco-projects, support high-quality developers around the world and jointly promote Heco eco-prosperity and development.
-
-The Heco Eco Alliance will support high-quality developers with resources such as investment, trading, fluidity, and brand to help them grow quickly.
-
-## Huobi DeFi Labs set up Heco Fund to accelerate the development of projects on the Zenith smart chain(ZSC)
-
-On December 21, Huobi Defi Labs announced the launch of the "Heco Fund". It is designated to support Huobi Open Platform as well as the projects on the Zenith smart chain(ZSC), so as to promote the prosperity of Huobi Ecosystem. The recent focus of the Heco Fund is to discover and support high-potential projects which include DEX, Lending, Oracle, Cross-chain solution, Stable currency exchange, Insurance, etc.
-
-Huobi DeFi Labs is the platform for DeFi research, investment，incubation, and ecosystem building, dedicated to build a new financial system in collaborations with the global crypto and DeFi community for the future.
-
-The Huobi Open Platform is a unified infrastructure platform based on the technical, traffic and ecological resources of the Huobi Group, which will be gradually open to the blockchain industry. It will make the construction of decentralized applications more efficient and cost-effective, and provide comprehensive empowerment in aspects of promotion, traffic, and resources. In December 2020, the first product of the Huobi Open Platform, the Zenith smart chain(ZSC), also known as Heco, officially launched its "Tinder" phase.
-
-## Zenith smart chain(ZSC) is officially launched
-
-Dear customer, 
-
-Zenith smart chain(ZSC), also known as Heco, is officially launched on 21st Dec. 2020，with characteristics such as high performance, low gas fee, and better cross-chain user experience, etc.
-
-The Meta-transaction function adopted by Heco enables developers with better on-chain operations, of which the essence is to cover the gas fee payment, and the purpose is to reduce the cost of users using Heco services. In other words, Heco intends to subsidize users by paying a part of their gas fee in accordance with their HT holding volume. In addition, sepecial gas fee subsidy could be given for specific DApps.
-
-![avatar](../images/grade-en.png)
-
-Heco is divided into 4 phases: Tinder, Spark, Flame, Blaze. The first stage of "Tinder" starts on 21st Dec. 2020. The second stage of "Tinder" will start on Q1 2021, at the appointed time the public recruitment of Heco nodes will be carried out.
-
-Risk warning：
-
-1. All users and developers can participate in the test environment and subsequent stages of the Heco for free, and there is no charge.
-
-2. Please distinguish between the test environment and the mainnet network. The assets generated by the test environment have no value. Be aware of counterfeit currency fraud.
-
-3. Zenith smart chain(ZSC) will announce authorization, promotion and other cooperation through the official social platform. Warmly remind developers and users to double check the information to avoid losses.
-
-4. Please identify the official website (hecochain.com ) to avoid private key phishing.
-
-## Zenith smart chain(ZSC) " WE MAKE FUTURE "program is open now for registration 
+Zenith smart chain（ZSC）开发进展：ZSC内测环境将于近日上线。主网共分为夸克（Quark），奇点（Singularity），星云（Nebula），混沌（Chaos）。
  
-Dear users, 
- 
-Heco is a whole new world, and we warmly welcome global developers to co-start the "Era of Making". Developers can deploy and run DApps on Heco. We will evaluate and award the Top5 projects with the title "Gold Creator" and a package of rewards. 
- 
-Registration time: 
-17:00 25th Dec. 2020 - 24:00 29th Dec. 2020  
- 
-Duration: 
-2020年12月30日00:00-2021年1月19日24:00  
-00:00 30th Dec. 2020 - 24:00 19th Jan. 2021 
- 
-Attention:  
-The daily average on-chain statistics are only valid within 20 days from 00:00 30th Dec. to 24:00 19th Jan.. Please pay attention to the beginning and ending times of your data.  
- 
-Result release: before 27th Jan. 2021 
- 
-Scoring rule:  
-Heco Fund will set up an evaluation committee to score the projects by the principle of fairness and justice. The scoring dimensions include three categories: on-chain data, market reputation, and project potential. The Heco Fund will evaluate projects based on various tracks and aspects. 
- 
- 
-Awards and benefits: 
-The "Gold Creator" title winners will have the opportunity to obtain at least one of the following benefits: 
-1. Official title of “Gold Creator” 
-2. Recommendation to the Huobi Global listing audit channel 
-3. Investment opportunities from the Heco Fund 
-4. Liquidity support up to 1 million USD 
-5. Heco global marketing resources support 
- 
-Registration Form in Chinese: https://jinshuju.net/f/mkP0ZU 
+阶段
 
-Registration Form in English: https://forms.gle/rVYnxdoh7dAc2Cfw5
- 
-For more details, please visit our website: www.hecochain.com 
- 
-Risk Warning: 
-1. Heco announces authorization, promotion, and other collaborations only through the official social media platform. Developers and users should check carefully to avoid losses. 
-2. All users and developers can participate in the test environment and the Mainnet of Heco for free, and there is no charge. 
-3. All users must distinguish the test environment from the Mainnet. The assets generated in the test environment have no value. Be aware of counterfeit currency fraud. 
-4. The official website is www.hecochain.com. Please be cautious with private key phishing. 
- 
-Zenith smart chain(ZSC) 
+时间线
 
-25th Dec. 2020 
+开发进程
 
+夸克（Quark）
+
+2021年Q1
+
+1.完成整体链上功能开发，保证其开发友好性与高性能处理能力
+
+2.推出Dapp开发者大赛，构建ZSC基建设施3.承兑主流资产转换，易于用户参与4.增加超级节点权重，由投票治理产生，丰富ZTB应用场景
+
+奇点（Singularity）
+
+2021年Q3
+
+1.完善并扩大ZSC链上生态2.搭建相关开发者交流平台3.引入并支持更多去中心化币种资产
+
+星云（Nebula）
+
+2022年Q1
+
+1.开发与Polkadot、AVAX、SOL、NEAR、TRX、EOS等各大公连的跨链可互操性，打通不同链之间资产的跨链交互2.引进零知识证明协议等，根据需求，实现链上交易匿名化
+
+混沌（Chaos）
+
+2022年Q4
+
+1.链上积极引进线下传统资产2.针对企业机构级客户，开发大额资产暗池（Dark Pool）交易
+
+标签slogon
+
+让开发更简单，让上链更自由！
+
+愿景
+
+区块链的发展，为企业的发展提出了更为严苛的要求。为适应当前区块链的发展形势技术，技术革新成为其发展的先决保证。通过技术创新，人员投入来促进产品的更新迭代，适应区块链发展需求，是ZT Global追求的核心目标。
+
+因而，ZSC绝不仅仅是一条公链，他代表了ZT Global革新的决心和使命。ZSC将扶持优质开发者、早期创新项目的发展，依托ZT交易平台，致力于成为创新技术、创新业务的根据地，构建一个集技术开发、应用推广、通证交易于一体的区块链发展生态闭环。
+
+Zsc团队
+
+## ZT智能链ZSC横空出世，创新动力促发展
+
+尊敬的用户：
+
+2月3日，ZT Global发布官方公告称，ZT交易平台将正式推出Starlink Plan（星连计划），搭建一条以ZT平台积分ZTB为底层生态资产的去中心化高性能交易公链Zenith smart chain（简称ZSC）。与此同时，ZSC测试环境也将于近期上线。这是ZT Global在2021年的开年大作。
+
+争朝夕，砥砺前行
+
+2020年，DeFi（Decentralized Finance，分布式金融）的迅速崛起成为区块链行业最前沿的新风口。
+
+作为一家专注于现货市场的交易平台，ZT交易平台基于自身的产品和服务方面的战略优势，尽可能在自身范围内覆盖对行业的发展进行支持。今年以来，ZT交易平台对于DeFi领域也积极布局，加强平台对 DeFi 项目和币种的研究、基于DeFi研究的上币以及针对DeFi的科普和市场推广。相关数据显示，截止至2月6日，ZT共计上线 DeFi 币种120个。
+
+同时，今年ZT交易平台对上币速度进一步加以提升，其中不乏在Binance和Huobi等大型交易平台之前，抢上一些DeFi 代币。可以说，这极大的迎合了用户需求，使平台用户能够更早地对高增长的项目进行潜伏。
+
+当然，为了更好的扶持DeFi发展，2020年9月2日，ZT Global旗下ZT Capital 成立2000万美元专项基金，重点对 DeFi 领域中包括DAO、NFT在内的项目进行投资；其中ZT于9月4日拨款500万美元支持波场DeFi生态的建设。
+
+总体而言，ZT平台对于DeFi的布局更多地体现在上币和开发DeFi热点进行科普和引流，效果上也偏向于注重该布局对用户所能直接感知的交易和操作体验的优化。
+
+可以说ZT平台一直坚持生态建设，并努力持续发掘DeFi的价值。
+
+让上链更简单，让链上更安全
+
+在DeFi世界，Uniswap、Sushiswap发展尤为迅猛，卷走传统交易平台大批交易量，开启了DEX对CEX的颠覆运动。而随着中心化交易平台行业同质化竞争的加剧，DeFi的崛起又给CEX的发展提供了相对有效的空间。
+
+如何抓住DeFi的崛起浪潮，将DeFi 融入自身的生态和未来发展，发展自身的核心竞争力已然成为交易平台所面临的重大考验。只有实现基于DeFi的创新，为平台引入市场流量，才能进一步推动交易平台战略目标的实现，推动区块链行业的整体发展。
+
+而各交易平台基于DeFi的努力创新，不但能为交易平台引入市场流量，也能为实现长期战略目标打好基础，进而推动行业的整体发展。
+
+作为一家在2020年稳步前进的交易平台，ZT也在谋篇布局。2月3日，ZT Global发布官方公告称，ZT交易平台将正式推出Starlink Plan，搭建一条去中心化高性能交易公链Zenith smart chain（简称ZSC）。与此同时，ZSC测试环境也将于近期上线，以期发展DeFi生态。Zenith smart chain（简称ZSC）是以ZT平台积分ZTB为底层生态资产的去中心化高性能交易公链，采用ZPos共识机制，以帮助开发者灵活高效地搭建去中心化应用，并通过质押ZT平台积分ZTB成为ZSC验证人节点。
+
+ZT（中国）CEO李晓成公开表示，ZSC的理念是自主和开放。
+
+据悉，所有的技术开发者仅需要以ZTB的主网为底层，可以自主的去开发任何Dapp，可以把自己的idea发挥到极致，因为ZSC会为每一个开发者提供最便捷的开发服务，拥护全新的开发体验，具有极低的开发费用。
+
+同样的，ZSC是一条面向全网的底层智能链，上面的开发者将不会做任何的区分，不论是来自任何CEX的开发团队，还是自主开发者平台都会提供最好的服务和最大的支持，因为Blockchain本身就是无界的，本身就是开放的。
+
+ZSC将底层体系的运营规则、上层系统的金融契约以及外层体制的公共监管紧密结合在一起，用公开透明、安全可靠、运转高效的区块链技术实现，保障各参与方的共同利益。
+
+一直以来，对大部分用户而言，去中心应用的交易手续费和资产的互通性仍然是参与以太坊生态的巨大困扰。正是为了更好的解决这一问题，使用户更好的享受区块链金融生活，ZT Global才创造性的提出了这一解决方法。
+
+毫不夸张的说，ZSC的出现可以让这一问题成为过去式。ZSC将会把用户、资产和去中心化应用进行高效链接，大幅降低应用落地和成长的门槛，让用户和开发者享受高效低价的链上体验。于开发者而言，ZSC具备如下特性：
+
+1、ZPos共识机制，3秒出块，加速共识；
+
+2、开发者友好，开发者可切换测试网或自由切换节点；
+
+3、开放、去中心化的⽹络，维护网络和资产的安全
+
+4、智能合约可编译，降低开发维护成本
+
+“让上链更简单，让链上更安全。”这绝不是一句口号，ZSC致力于给予用户高效且低价的链上体验。
+
+创新，让发展更自由
+
+DeFi的爆发源于创新所释放的巨大潜力，因此ZT Global一直在积极做创新，以创新促发展，以创新谋未来。
+
+“ZSC智能链对于ZT Global不仅仅是条公链，更是cex与dex完美的融合。通过智能链这样平台的搭建，平台可以吸引更多的开发者入驻，同时也令平台用户可以将留存更多资金以体验智能链。”Zt Labs合伙人&首席研究员Levi如是说。
+
+据悉，ZT交易平台未来将为开发者提供资金支持，也会和平台市场打通，ZSC上的优质资产在出入金和二级市场交易上，将非常方便。ZSC构建了一个集技术开发、应用推广、通证交易于一体的区块链发展生态闭环。
+
+然而，ZSC的独特之处更是在于，ZSC更倾向于成为一个“创新根据地”。ZSC不仅仅是条公链，它将聚焦于那些潜力巨大，但还没有很好解决方案的领域，扶持优质开发者、早期创新项目的发展，在技术创新、业务创新这两方面发光发热。这一切极具想象力，ZSC推动了“区块链+DeFi”的建设，将技术创新染上了主动的色彩。
+
+据Zenith smart chain（ZSC）开发进展来看，ZSC主网共分为夸克（Quark），奇点（Singularity），星云（Nebula），混沌（Chaos）。初始阶段，ZSC将专注于DEX、预言机、衍生品、智能合约保险、抵押借贷、跨链资产交易这些赛道。这些赛道不仅是重要的基础设施，而且有很大的想象和拓展空间，很可能成为行业未来的重点发展方向。
+
+随着区块链的繁荣发展，基础设施的进一步夯实成为了必要条件。ZT始终坚持在创新的作用下，通过高TPS和完善的底层设施，打造一个更趋向完美的应用生态，着力于创新，无限放大创新的魅力，让区块链变得更具创意、更具意义。
+
+腾跃起风云，弄潮通四方。
+
+Zsc团队

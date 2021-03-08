@@ -1,39 +1,29 @@
-# pending transaction solutions
+# 交易处于 pending 中的解决办法
 
-## 1）Inappropriate nonce:
-Suggestions:
+## 1）nonce 不正确
 
-- Try to reset a appropriate value
-- If you have many pending transactions , please wait for earier transactions confirmed.
-- metatask--setting-advanced--reset account
-- metatask--setting--advanced--Customize transaction nonce :resend transaction with pending tx's nonce and higher gas price.
+### 解决方案
+* 小狐狸--设置--高级--重置账户 
 
-## low gas price：
-- Set a higher gas price and resend
+或者：
 
-## 3）meta transaction
+* 小狐狸--设置--高级--启用高级gas控制--启用customize transaction once --找到pending中交易的nonce --重新发起一笔同样nonce的交易并提高gas
 
-```
-case 1：
+### 原因解释
 
-invalid meta transaction FeePercent need 0-10000. Found:100001
+> zsc 使用与账户地址相关的 nonce 数值来控制交易重放和顺序执行。
 
-illegal fee range, it should between 0-10000
+> 交易中需要填写正确的 nonce 数值才可以成功上链，正确的 nonce 数值与 eth.getTransactionCount("0xadd") 相等。
 
-solution：
+> 如果您发起交易的地址有多笔 pending 中交易，您需要等待前序交易打包完成后，节点才会打包当前交易。
 
-metatask--setting--advanced--Customize transaction nonce :resend transaction with pending tx's nonce and higher gas price.
-```
+## 2）gas price 过低
 
-```
-case 2：
+### 解决方案
 
-err: expired meta transaction. current:2083222, need execute before 2075609
+* 重设`gas price`，替换当前交易。
 
-meta transation expired，it should be execute before 2075609, and the current height is 2083222；
+### 原因解释
 
+> 有可能是因为使用 `metamask` 的时候速度过快，导致 `gasprice` 没有获取成功；`mac` 下的 `chrome` 的 [bug](https://github.com/MetaMask/metamask-extension/issues/10202)，会导致小狐狸弹出界面的输入框卡顿。
 
-solution：
-
-metatask--setting--advanced--Customize transaction nonce :resend transaction with pending tx's nonce and higher gas price.
-```
