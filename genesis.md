@@ -10,7 +10,7 @@
 - `number` `gasUsed` `parentHash` `nonce` `timestamp` `extraData` `gasLimit` `difficulty` 均为创世块的参数
 - `extraData` 设置了初始的验证人群组；
 - `alloc` 配置了初始账户信息，可以用来进行资产预分配和系统合约的预初始化；
-    - 0xdaf88b74fca1246c6144bc846aaa3441ed095191 //创世 HT 锁定地址
+    - 0xdaf88b74fca1246c6144bc846aaa3441ed095191 //创世地址
     - 000000000000000000000000000000000000F000 //validators 合约
     - 000000000000000000000000000000000000F001 // punish 合约
     - 000000000000000000000000000000000000F002 // proposal 合约
