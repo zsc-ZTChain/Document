@@ -1,20 +1,25 @@
-# 测试网信息
+# 开发测试
 
 ## chainid
 
 ```
-> 待更新
+20212
 
 ```
 ## rpc
 
 ```
-> 待更新
+https://dapp.zsc.one/rpc
+
+或者
+
+https://dapp.zsc.one/rpc
+
 ```
 ## 浏览器
 
 ```
-> 待更新
+https://en.zscscan.com/
 
 ```
 

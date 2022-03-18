@@ -14,8 +14,8 @@
 
 ```
 chainid: 20212
-rpc: https://zsc.one/rpc
-scan:  http://zenithsmartchain.com/
+rpc: https://dapp.zsc.one/rpc
+scan:  https://en.zscscan.com/
 ```
 
 ![metamask](./images/metamask2.png)
@@ -35,7 +35,7 @@ https://www.sipc.vip/
 
 # ZSC wallet extension
 
-> 待公布
+> 待更新
 
 # Zsc cointtype
 

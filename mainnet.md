@@ -8,23 +8,20 @@
 ```
 ## rpc
 
-国内访问：
+```
+https://dapp.zsc.one/rpc
 
 ```
-https://zsc.one/rpc
+或
 
 ```
-
-国外访问：
-```
-https://zsc.one/rpc
-
+https://data-seed-prebsc-1-s1.zsc.one/rpc
 ```
 
 ## 浏览器
 
 ```
-http://zenithsmartchain.com/
+https://en.zscscan.com/
 
 ```
 

@@ -11,20 +11,20 @@
 国内访问：
 
 ```
-https://zsc.one/rpc
+https://dapp.zsc.one/rpc
 
 ```
 
 国外访问：
 ```
-https://zsc.one/rpc
+https://dapp.zsc.one/rpc
 
 ```
 
 ## 浏览器
 
 ```
-http://zenithsmartchain.com/
+https://en.zscscan.com/
 
 ```
 

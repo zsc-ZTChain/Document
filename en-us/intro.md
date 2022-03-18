@@ -71,7 +71,7 @@
 
 2. 搭建相关开发者交流平台；
 
-3. 引入并支持更多去中心化币种资产  </td> <td rowspan=5 >2021 Q2 </td> <td rowspan=5 > 待公布  </td> <td>开发者工具完备</td></tr>
+3. 引入并支持更多去中心化币种资产  </td> <td rowspan=5 >2021 Q2 </td> <td rowspan=5 > 待更新  </td> <td>开发者工具完备</td></tr>
 <tr style="background:rgba(0,0,0,0)"><td>开发者论坛、博客、FAQ信息完备</td></tr>
 <tr style="background:rgba(0,0,0,0)"><td>链生态基础设施繁荣</td></tr>
 <tr style="background:rgba(0,0,0,0)"><td>创新型Open ID</td></tr>
@@ -79,12 +79,12 @@
 
 <tr style="background:rgba(0,0,0,0)"><td rowspan=3>星云（Nebula）</td> <td rowspan=3>1. 增加超级节点权重，由投票治理产生，丰富ZTB应用场景;
 
-2. 各大公连的跨链可互操性，打通不同链之间资产的跨链交互</td><td rowspan=3>2022 Q3</td><td rowspan=3>待公布</td><td>跨链互操作协议</td></tr>
+2. 各大公连的跨链可互操性，打通不同链之间资产的跨链交互</td><td rowspan=3>2022 Q3</td><td rowspan=3>待更新</td><td>跨链互操作协议</td></tr>
 <tr style="background:rgba(0,0,0,0)"><td>跨链互操作集成</td></tr>
 <tr style="background:rgba(0,0,0,0)"><td>共识协议升级</td></tr>
 <tr style="background:rgba(0,0,0,0)"><td rowspan=5>混沌（Chaos）</td> <td rowspan=5>1. 链上积极引进线下传统资产;
 
-2. 开发大额资产暗池（Dark Pool）交易</td> <td rowspan=5>2023 Q3</td> <td rowspan=5>待公布</td><td>多虚拟机支持</td></tr>
+2. 开发大额资产暗池（Dark Pool）交易</td> <td rowspan=5>2023 Q3</td> <td rowspan=5>待更新</td><td>多虚拟机支持</td></tr>
 <tr style="background:rgba(0,0,0,0)"><td>多种零知识证明和隐私保护能力</td></tr>
 <tr style="background:rgba(0,0,0,0)"><td>多种签名方案</td></tr>
 <tr style="background:rgba(0,0,0,0)"><td>存储压缩和扩容方案</td></tr>

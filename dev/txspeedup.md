@@ -8,7 +8,7 @@
 ```
 账号头=->设置->网络->zsc 网络配置
 
-更换RPC节点地址为：https://zsc.one/rpc
+更换RPC节点地址为：https://dapp.zsc.one/rpc
 
 
 ```
@@ -36,6 +36,6 @@
 
 > 加速密码
 
-https://zsc.one/rpc
+https://dapp.zsc.one/rpc
 
 ![](../images/switchrpc/s4.png)

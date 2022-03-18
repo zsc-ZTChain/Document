@@ -101,7 +101,7 @@ const mnemonic = fs.readFileSync(".secret").toString().trim();
 module.exports = {
   networks: {
     mainnet: {
-      provider: () => new HDWalletProvider(mnemonic, 'https://zsc.one/rpc'),
+      provider: () => new HDWalletProvider(mnemonic, 'https://dapp.zsc.one/rpc'),
       network_id: 20212    }
   },
 

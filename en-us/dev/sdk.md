@@ -21,7 +21,7 @@
 const Web3 = require('web3')
 
 async function getChainId() {
-    const web3 = new Web3('https://zsc.one/rpc')
+    const web3 = new Web3('https://dapp.zsc.one/rpc')
     let chainId = await web3.eth.getChainId()
     console.log(`chain id: ${chainId}`)
     return chainId
@@ -44,7 +44,7 @@ console.log(`account generated. address: ${account.address}, private key: ${acco
 const Web3 = require('web3')
 
 async function transfer(fromAccount, to, value){
-    const web3 = new Web3('https://zsc.one/rpc')
+    const web3 = new Web3('https://dapp.zsc.one/rpc')
     let chainId = await web3.eth.getChainId()
     let nonce = await web3.eth.getTransactionCount(fromAccount.address)
     let gasPrice = await web3.eth.getGasPrice()

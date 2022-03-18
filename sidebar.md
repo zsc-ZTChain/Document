@@ -10,7 +10,7 @@
     - [私链搭建](/dev/private_chain.md)
     - [Graph Node](/dev/graphnode.md)
     - [主网信息介绍](/mainnet.md)
-    - [测试网信息介绍](/testnet.md)
+    - [开发测试](/testnet.md)
     - [DApp治理](/dev/dapp-gov.md)
     - [ZSC20](/dev/hrc20.md)
     - [WalletConnect](/dev/wallet-connect.md)
