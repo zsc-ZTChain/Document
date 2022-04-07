@@ -125,11 +125,3 @@
 - Telegram： [https://t.me/zt_com](https://t.me/zt_com)
 - 微博：[https://weibo.com/u/6858684512?refer_flag=1005055010_&is_all=1](https://weibo.com/u/6858684512?refer_flag=1005055010_&is_all=1)
 
-
-
-## 风险提示
-
-- 所有用户及开发者都可以免费参与`Zenith smart chain`的测试环境与后续阶段，不存在收费场景。
-- 大家务必区分好测试环境和主网环境，测试环境所产生的资产不具备任何价值，谨防假币诈骗；
-- `Zenith smart chain`将通过官方社交平台公布授权、推介等合作，开发者和用户谨慎核对，以免造成损失；
-- 认准官方网址: [https://zsc-ztchain.github.io/home-page/index.html](https://zsc-ztchain.github.io/home-page/index.html)，避免出现私钥被钓鱼等情况。

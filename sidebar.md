@@ -15,7 +15,6 @@
     - [ZSC20](/dev/hrc20.md)
     - [WalletConnect](/dev/wallet-connect.md)
     - [交易池问题](/dev/txpool.md)
-    - [挖矿交易加速](/dev/txspeedup.md)
 - 公告
     - [公告](/Announcement.md)
 - FAQ
