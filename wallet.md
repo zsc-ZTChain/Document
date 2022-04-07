@@ -10,8 +10,6 @@
 
 添加自定义网络：
 
-## 主网
-
 ```
 chainid: 20212
 rpc: https://dapp.zsc.one/rpc
@@ -20,23 +18,32 @@ scan:  https://en.zscscan.com/
 
 ![metamask](./images/metamask2.png)
 
+# TokenPocket
 
-## 测试网
+1. 下载管理：https://www.tokenpocket.pro
+
+2. 添加ZSC网络：
 
 ```
-> 待更新
-
+chainid: 20212
+rpc: https://dapp.zsc.one/rpc
+scan:  https://en.zscscan.com/
 ```
 
+点击添加ZSC链
 
-# jianbao wallet app
+![TokenPocket](./images/tp1.png)
 
-https://www.sipc.vip/
+添加自定义网络
 
-# ZSC wallet extension
+![TokenPocket](./images/tp2.png)
 
-> 待更新
+添加完成，进行保存
 
-# Zsc cointtype
+![TokenPocket](./images/tp3.png)
 
-https://github.com/satoshilabs/slips/blob/master/slip-0044.md
+
+# BitKeep
+
+下载地址： https://bitkeep.com/
+
