@@ -19,5 +19,3 @@
     - [公告](/Announcement.md)
 - FAQ
     - [FAQ](/faq.md)
-- 免责声明
-    - [声明](/disclaimer.md)
