@@ -15,7 +15,20 @@ https://dapp.zsc.one/rpc
 或
 
 ```
-https://data-seed-prebsc-1-s1.zsc.one/rpc
+https://node.zsc.one/rpc
+
+```
+或
+
+```
+https://node1.zsc.one/rpc 
+
+```
+或
+
+```
+https://node2.zsc.one/rpc
+
 ```
 
 ## 浏览器

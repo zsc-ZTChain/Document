@@ -8,16 +8,26 @@
 ```
 ## rpc
 
-国内访问：
-
 ```
 https://dapp.zsc.one/rpc
 
 ```
+或
 
-国外访问：
 ```
-https://dapp.zsc.one/rpc
+https://node.zsc.one/rpc
+
+```
+或
+
+```
+https://node1.zsc.one/rpc 
+
+```
+或
+
+```
+https://node2.zsc.one/rpc
 
 ```
 
